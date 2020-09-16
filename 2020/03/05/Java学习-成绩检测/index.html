@@ -20,17 +20,20 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="如果你的人生只有柠檬，不妨配盐喝点龙舌兰">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/archives/index.html">
+  <meta name="description" content="实验要求 编写程序Examination.java，接收用户输入的一个学生的平时成绩和出勤次数，根据下面的规则，输出该学生是否具有期末考试资格。   规定学生出勤率小于30%时，取消期末考试资格；成绩管理中，学生平时成绩低于60分时，取消期末考试资格；（假设课程上课次数为30次）  代码如下： 123456789101112131415import java.util.Scanner;public">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Java学习-成绩检测">
+<meta property="og:url" content="http://example.com/2020/03/05/Java%E5%AD%A6%E4%B9%A0-%E6%88%90%E7%BB%A9%E6%A3%80%E6%B5%8B/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="如果你的人生只有柠檬，不妨配盐喝点龙舌兰">
+<meta property="og:description" content="实验要求 编写程序Examination.java，接收用户输入的一个学生的平时成绩和出勤次数，根据下面的规则，输出该学生是否具有期末考试资格。   规定学生出勤率小于30%时，取消期末考试资格；成绩管理中，学生平时成绩低于60分时，取消期末考试资格；（假设课程上课次数为30次）  代码如下： 123456789101112131415import java.util.Scanner;public">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-03-05T08:28:54.000Z">
+<meta property="article:modified_time" content="2020-03-05T09:07:56.061Z">
 <meta property="article:author" content="Roder1ck">
+<meta property="article:tag" content="Java初学">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://example.com/archives/">
+<link rel="canonical" href="http://example.com/2020/03/05/Java%E5%AD%A6%E4%B9%A0-%E6%88%90%E7%BB%A9%E6%A3%80%E6%B5%8B/">
 
 
 <script id="page-configurations">
@@ -38,12 +41,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>归档 | Hexo</title>
+  <title>Java学习-成绩检测 | Hexo</title>
   
 
 
@@ -156,130 +159,97 @@
         <div class="content-wrap">
           
 
-          <div class="content archive">
+          <div class="content post posts-expand">
             
 
+    
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <span class="collection-header">嗯..! 目前共计 5 篇日志。 继续努力。</span>
-      </div>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/03/05/Java%E5%AD%A6%E4%B9%A0-%E6%88%90%E7%BB%A9%E6%A3%80%E6%B5%8B/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Roder1ck">
+      <meta itemprop="description" content="如果你的人生只有柠檬，不妨配盐喝点龙舌兰">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Java学习-成绩检测
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-03-05 16:28:54 / 修改时间：17:07:56" itemprop="dateCreated datePublished" datetime="2020-03-05T16:28:54+08:00">2020-03-05</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Java/" itemprop="url" rel="index"><span itemprop="name">Java</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2020</span>
-    </div>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-09-16T20:19:38+08:00"
-              content="2020-09-16">
-          09-16
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2020/09/16/%E5%B8%B8%E8%A7%81%E7%9A%84HTTP%E7%8A%B6%E6%80%81%E7%A0%81/" itemprop="url">
-            <span itemprop="name">常见的HTTP状态码</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-03-12T19:59:08+08:00"
-              content="2020-03-12">
-          03-12
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2020/03/12/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2hexo%E5%8D%9A%E5%AE%A2-1/" itemprop="url">
-            <span itemprop="name">云服务器部署hexo博客</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-03-11T22:15:18+08:00"
-              content="2020-03-11">
-          03-11
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2020/03/11/Java%E5%AD%A6%E4%B9%A0-%E8%BE%93%E5%87%BA99%E4%B9%98%E6%B3%95%E8%A1%A8/" itemprop="url">
-            <span itemprop="name">Java学习-输出九九乘法表</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-03-06T11:42:13+08:00"
-              content="2020-03-06">
-          03-06
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2020/03/06/Java%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%9C%BA%E5%87%BA%E6%95%B0%E5%B9%B6%E6%B1%82%E6%9C%80%E5%A4%A7%E5%85%AC%E7%BA%A6%E6%95%B0/" itemprop="url">
-            <span itemprop="name">Java学习-随机出数并求最大公约数</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-03-05T16:28:54+08:00"
-              content="2020-03-05">
-          03-05
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2020/03/05/Java%E5%AD%A6%E4%B9%A0-%E6%88%90%E7%BB%A9%E6%A3%80%E6%B5%8B/" itemprop="url">
-            <span itemprop="name">Java学习-成绩检测</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
+        <h3 id="实验要求"><a href="#实验要求" class="headerlink" title="实验要求"></a>实验要求</h3><blockquote>
+<p>编写程序Examination.java，接收用户输入的一个学生的平时成绩和出勤次数，根据下面的规则，输出该学生是否具有期末考试资格。</p>
+</blockquote>
+<blockquote>
+<p><strong>规定学生出勤率小于30%时，取消期末考试资格；成绩管理中，学生平时成绩低于60分时，取消期末考试资格；（假设课程上课次数为30次）</strong></p>
+</blockquote>
+<p><strong>代码如下：</strong></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.Scanner;</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Examination</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span> <span class="params">(String args[])</span> </span>&#123;</span><br><span class="line">		System.out.println(<span class="string">&quot;请输入平时成绩和出勤次数：&quot;</span>);</span><br><span class="line">		Scanner scan = <span class="keyword">new</span> Scanner(System.in);</span><br><span class="line">		<span class="keyword">double</span> grade = scan.nextDouble();</span><br><span class="line">		<span class="keyword">double</span> time = scan.nextDouble();</span><br><span class="line">		<span class="keyword">if</span> (grade&gt;=<span class="number">60</span>&amp;&amp;time/<span class="number">30</span>&gt;=<span class="number">0.3</span>) &#123;</span><br><span class="line">			System.out.print(<span class="string">&quot;具有考试资格&quot;</span>);</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">else</span> &#123;</span><br><span class="line">			System.out.print(<span class="string">&quot;不具有考试资格&quot;</span>);</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 
     </div>
-  </div>
-  
-  
-  
 
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/Java%E5%88%9D%E5%AD%A6/" rel="tag"># Java初学</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item"></div>
+      <div class="post-nav-item">
+    <a href="/2020/03/06/Java%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%9C%BA%E5%87%BA%E6%95%B0%E5%B9%B6%E6%B1%82%E6%9C%80%E5%A4%A7%E5%85%AC%E7%BA%A6%E6%95%B0/" rel="next" title="Java学习-随机出数并求最大公约数">
+      Java学习-随机出数并求最大公约数 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
   
 
 
@@ -332,6 +302,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%9E%E9%AA%8C%E8%A6%81%E6%B1%82"><span class="nav-number">1.</span> <span class="nav-text">实验要求</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
